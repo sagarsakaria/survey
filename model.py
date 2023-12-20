@@ -15,10 +15,10 @@ class MyModel(models.Model):
         # Added by: sagarsakaria
         # Added on: 20/12/2023 
         for record in self:
-            record.computed_field = self._calculate_computed_field()
+            record.computed_field = self._calculate_computed_field(record.field1, record.field2)
 
-    
-    def _calculate_computed_field(self):
+    @staticmethod
+    def _calculate_computed_field(field1, field2):
         # Common logic for computing the value of computed_field
         # Added by: sagarsakaria
         # Added on: 20/12/2023
