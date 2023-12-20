@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Record 1 -->
+        <record id="my_model_record_1" model="my.model">
+            <field name="field1">Value 1</field>
+            <field name="field2">Value 2</field>
+        </record>
+
+        <!-- Record 2 -->
+        <record id="my_model_record_2" model="my.model">
+            <field name="field1">Another Value 1</field>
+            <field name="field2">Another Value 2</field>
+        </record>
+    </data>
+</odoo>
