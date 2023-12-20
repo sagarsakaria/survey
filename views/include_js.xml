@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="my_module_frontend_js">
+
+    <script type="text/javascript" src="/my_module/static/src/js/my_module_frontend.js"></script>
+</template>
